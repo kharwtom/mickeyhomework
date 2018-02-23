@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+        {% for car in object_list %}
+        <h1>{{ car.model }}</h1>
+        <p>{{ car.detail }}</p>
+        <p>{{ car.price }}</p>
+        {% empty%}
+        {% endfor %}
+
+
+
+</body>
+</html>
